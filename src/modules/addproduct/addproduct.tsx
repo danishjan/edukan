@@ -24,6 +24,7 @@ export const Addproduct = () => {
 const handleSubmitForm = (e: any) => {
   e?.preventDefault();
    dispatch({type: "ADD_ITEM", payload: productItem})
+   alert("your product is added!");
 }
   return (
 <form className="w-full max-w-lg m-10">
